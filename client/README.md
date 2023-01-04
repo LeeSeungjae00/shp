@@ -34,3 +34,15 @@
 
 모노래포란 한 레포 안에 여러가지 프로젝트가 있는 것
 또 각 프로젝트의 name 을 변경시킨다 (client, server)
+
+## Apollo
+
+- gql 을 사용하기 위한 스키마 작성
+- scheam/index.ts 에서 linkSchema 작성해서 해야함
+  > server/schema 확인
+
+stduio.apollographql.com 에서 스웨거처럼 요청 가능
+
+## useRef 로 intersectionObserver 로 하는 이유
+
+- 한번만 생성하게 할려고
